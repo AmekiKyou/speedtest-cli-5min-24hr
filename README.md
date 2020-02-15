@@ -4,7 +4,10 @@ This is a bash script tool to use [speedtest-cli](https://github.com/sivel/speed
 
 # How to use
 
-1. Follow the instructions of [speedtest-cli](https://github.com/sivel/speedtest-cli) to install this script.
+1. Follow the instructions of [speedtest-cli](https://github.com/sivel/speedtest-cli) to install this script, or simply:
+```
+pip install speedtest-cli
+```
 
 2. Edit `single.sh`:
 
