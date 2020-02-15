@@ -19,7 +19,13 @@ which speedtest-cli
 
 * Replace all `/home/ameki/dev/speedtest-cli-5min-24hr/` to your desired output file folder.
 
-3. Add a crontab, e.g., to run this script every 5 minutes
+3. Test your `single.sh`
+```
+chmod 755 single.sh
+./single.sh
+```
+
+4. Add a crontab, e.g., to run this script every 5 minutes
 
 ```
 crontab -e
@@ -31,7 +37,7 @@ then, at the bottom of the file append this:
 */5 * * * * [Your path to this script]/single.sh
 ```
 
-4. Make sure cron is running
+5. Make sure cron is running
 ```
 sudo service cron start
 ```
